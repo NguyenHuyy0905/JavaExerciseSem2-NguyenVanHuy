@@ -1,4 +1,4 @@
-public class Main {
+public class TestShape {
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle("Red", 3, 4);
         System.out.println(rectangle.getArea());
