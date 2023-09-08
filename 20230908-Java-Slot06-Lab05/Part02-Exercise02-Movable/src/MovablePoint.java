@@ -26,24 +26,24 @@ public class MovablePoint implements Movable {
     @Override
     public void moveUp() {
         y++;
-        System.out.println("y = " + y);
+        System.out.println("x = " + x + ", y = " + y);
     }
 
     @Override
     public void moveDown() {
         y--;
-        System.out.println("y = " + y);
+        System.out.println("x = " + x + ", y = " + y);
     }
 
     @Override
     public void moveLeft() {
         x--;
-        System.out.println("x = " + x);
+        System.out.println("x = " + x + ", y = " + y);
     }
 
     @Override
     public void moveRight() {
         x++;
-        System.out.println("x = " + x);
+        System.out.println("x = " + x + ", y = " + y);
     }
 }
